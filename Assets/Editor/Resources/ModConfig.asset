@@ -14,7 +14,8 @@ MonoBehaviour:
   id: needyPiano
   title: Needy Piano
   description: "==\nThis module puts a whole new light on the saying \u201Ctaking
-    notes\u201D.\n\nModule Name: Needy Piano\nModule ID: needyPiano\nManual: https://docs.google.com/document/d/12YlvC3xJyfZzXwl8WZK8xMm_MQDzLVJxXPdiZLWOqkw/edit?usp=sharing\n=="
+    notes\u201D.\n\nModule Name: Needy Piano\nModule ID: needyPiano\nManual: https://ktane.timwi.de/HTML/Needy%20Piano.html\n\nCamera
+    zoom mod recommended.\n=="
   version: 1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: bf9b8f014bed74f4996d515f21956f9f, type: 3}
