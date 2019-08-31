@@ -43,7 +43,7 @@ public class pianoNeedyCS : MonoBehaviour
         {
             if (pressedButton.name == noteRenderers[noteNumber].sprite.name)
             {
-                if (noteNumber < 4)
+                if (noteNumber < 2)
                 {
                     noteNumber++;
                 }
@@ -68,7 +68,7 @@ public class pianoNeedyCS : MonoBehaviour
     protected void OnNeedyActivation()
     {
         isActive = true;
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
         {
             index = UnityEngine.Random.Range(0, 12);
             noteRenderers[i].sprite = notes[index];
